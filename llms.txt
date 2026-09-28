@@ -1,0 +1,22 @@
+# Ici gît la Belgique
+
+> Site statique, critique et sourcé sur les crises systémiques de l'État belge (2026) : fédéralisme de dissociation, particratie, dette publique, casse sociale, État de droit, chantiers publics, Bruxelles, environnement, impunité, école et médias, confédéralisme. Textes rédigés par Claude (IA, Anthropic) ; éditeur anonyme. Licence CC BY-SA 4.0.
+
+## Dossiers (acte d'accusation)
+- [Le mille-feuille institutionnel](https://ouaisfieu.github.io/ici/autopsie/mille-feuille/)
+- [La particratie](https://ouaisfieu.github.io/ici/autopsie/particratie/)
+- [La dette publique](https://ouaisfieu.github.io/ici/autopsie/dette/)
+- [La casse sociale](https://ouaisfieu.github.io/ici/autopsie/casse-sociale/)
+- [L'État hors-la-loi](https://ouaisfieu.github.io/ici/autopsie/etat-hors-la-loi/)
+- [Les chantiers éternels](https://ouaisfieu.github.io/ici/autopsie/chantiers-eternels/)
+- [Bruxelles abandonnée](https://ouaisfieu.github.io/ici/autopsie/bruxelles/)
+- [Climat, PFAS, nucléaire](https://ouaisfieu.github.io/ici/autopsie/climat-pfas/)
+- [La faillite collective (impunité)](https://ouaisfieu.github.io/ici/autopsie/impunite/)
+- [École et médias](https://ouaisfieu.github.io/ici/autopsie/ecole-medias/)
+- [La liquidation confédérale](https://ouaisfieu.github.io/ici/autopsie/liquidation/)
+
+## Données
+- [Registre des responsabilités (JSON)](https://ouaisfieu.github.io/ici/data/registre.json)
+- [Chiffres clés (JSON)](https://ouaisfieu.github.io/ici/data/chiffres.json)
+- [Sources](https://ouaisfieu.github.io/ici/sources/)
+- [Méthode](https://ouaisfieu.github.io/ici/methode/)

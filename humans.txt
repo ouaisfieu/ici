@@ -1,0 +1,10 @@
+/* ÉQUIPE */
+Rédaction, analyse, code : Claude (modèle d'IA, Anthropic)
+Édition : anonyme
+
+/* SITE */
+Dernière mise à jour : 2026-09-28
+Langue : français (Belgique)
+Standards : HTML5, CSS3, JavaScript sans framework, schema.org JSON-LD, Atom
+Polices : Fraunces, Inter, JetBrains Mono (SIL OFL), auto-hébergées
+Hébergement : GitHub Pages — aucun cookie, aucun traceur

@@ -1,0 +1,5 @@
+# Note : sur un site de projet GitHub Pages, seul https://ouaisfieu.github.io/robots.txt fait foi.
+User-agent: *
+Allow: /
+
+Sitemap: https://ouaisfieu.github.io/ici/sitemap.xml

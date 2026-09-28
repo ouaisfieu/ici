@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="fr-BE" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Jeu : qui est compétent en Belgique ? Fédéral, Régions ou Communautés — Ici gît la Belgique</title>
+<meta name="description" content="Quiz interactif sur la répartition des compétences en Belgique : maisons de repos, masques, chômage, bail, avions, prisons, climat. Devinez quel niveau de pouvoir est responsable.">
+
+<meta name="author" content="Claude (IA, Anthropic)">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<link rel="canonical" href="https://ouaisfieu.github.io/ici/patate-chaude/">
+<link rel="alternate" hreflang="fr-BE" href="https://ouaisfieu.github.io/ici/patate-chaude/">
+<link rel="alternate" hreflang="x-default" href="https://ouaisfieu.github.io/ici/patate-chaude/">
+<meta name="theme-color" content="#0b0d0f" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f5f6f1" media="(prefers-color-scheme: light)">
+<meta name="color-scheme" content="dark light">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self'; font-src 'self'; connect-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none'">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Ici gît la Belgique">
+<meta property="og:locale" content="fr_BE">
+<meta property="og:title" content="Jeu : qui est compétent en Belgique ? Fédéral, Régions ou Communautés">
+<meta property="og:description" content="Quiz interactif sur la répartition des compétences en Belgique : maisons de repos, masques, chômage, bail, avions, prisons, climat. Devinez quel niveau de pouvoir est responsable.">
+<meta property="og:url" content="https://ouaisfieu.github.io/ici/patate-chaude/">
+<meta property="og:image" content="https://ouaisfieu.github.io/ici/assets/og/patate-chaude.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Jeu : qui est compétent en Belgique ? Fédéral, Régions ou Communautés — Ici gît la Belgique">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Jeu : qui est compétent en Belgique ? Fédéral, Régions ou Communautés">
+<meta name="twitter:description" content="Quiz interactif sur la répartition des compétences en Belgique : maisons de repos, masques, chômage, bail, avions, prisons, climat. Devinez quel niveau de pouvoir est responsable.">
+<meta name="twitter:image" content="https://ouaisfieu.github.io/ici/assets/og/patate-chaude.png">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../favicon.ico" sizes="32x32">
+<link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+<link rel="manifest" href="../site.webmanifest">
+<link rel="alternate" type="application/atom+xml" title="Ici gît la Belgique — flux Atom" href="../feed.xml">
+<link rel="preload" href="../assets/fonts/fraunces-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../assets/css/site.css">
+<script src="../assets/js/theme.js"></script>
+<script src="../assets/js/app.js" defer></script>
+<script src="../assets/js/patate.js" defer></script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "WebSite",
+   "@id": "https://ouaisfieu.github.io/ici/#website",
+   "url": "https://ouaisfieu.github.io/ici/",
+   "name": "Ici gît la Belgique",
+   "alternateName": "ICI — Ici gît la Belgique",
+   "description": "Autopsie sans anesthésie d'un État qui se regarde mourir",
+   "inLanguage": "fr-BE",
+   "publisher": {
+    "@id": "https://ouaisfieu.github.io/ici/#org"
+   },
+   "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+     "@type": "EntryPoint",
+     "urlTemplate": "https://ouaisfieu.github.io/ici/recherche/?q={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+   }
+  },
+  {
+   "@type": "Organization",
+   "@id": "https://ouaisfieu.github.io/ici/#org",
+   "name": "Ici gît la Belgique",
+   "alternateName": "ICI",
+   "url": "https://ouaisfieu.github.io/ici/",
+   "logo": {
+    "@type": "ImageObject",
+    "url": "https://ouaisfieu.github.io/ici/assets/img/logo-512.png",
+    "width": 512,
+    "height": 512
+   },
+   "description": "Observatoire critique et anonyme de l'État belge. Éditeur non identifié par choix ; textes signés par Claude (IA).",
+   "sameAs": [
+    "https://github.com/ouaisfieu/ici"
+   ]
+  },
+  {
+   "@type": "Person",
+   "@id": "https://ouaisfieu.github.io/ici/#claude",
+   "name": "Claude",
+   "description": "Modèle d'intelligence artificielle développé par Anthropic. Auteur des textes, des analyses et du code de ce site.",
+   "affiliation": {
+    "@type": "Organization",
+    "name": "Anthropic",
+    "url": "https://www.anthropic.com"
+   }
+  },
+  {
+   "@type": "BreadcrumbList",
+   "@id": "https://ouaisfieu.github.io/ici/patate-chaude/#breadcrumb",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Accueil",
+     "item": "https://ouaisfieu.github.io/ici/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Patate chaude",
+     "item": "https://ouaisfieu.github.io/ici/patate-chaude/"
+    }
+   ]
+  },
+  {
+   "@type": "WebPage",
+   "@id": "https://ouaisfieu.github.io/ici/patate-chaude/#webpage",
+   "url": "https://ouaisfieu.github.io/ici/patate-chaude/",
+   "name": "Jeu : qui est compétent en Belgique ? Fédéral, Régions ou Communautés",
+   "description": "Quiz interactif sur la répartition des compétences en Belgique : maisons de repos, masques, chômage, bail, avions, prisons, climat. Devinez quel niveau de pouvoir est responsable.",
+   "inLanguage": "fr-BE",
+   "isPartOf": {
+    "@id": "https://ouaisfieu.github.io/ici/#website"
+   },
+   "primaryImageOfPage": {
+    "@type": "ImageObject",
+    "url": "https://ouaisfieu.github.io/ici/assets/og/patate-chaude.png",
+    "width": 1200,
+    "height": 630
+   },
+   "datePublished": "2026-09-28",
+   "dateModified": "2026-09-28",
+   "author": {
+    "@id": "https://ouaisfieu.github.io/ici/#claude"
+   },
+   "publisher": {
+    "@id": "https://ouaisfieu.github.io/ici/#org"
+   },
+   "license": "https://creativecommons.org/licenses/by-sa/4.0/deed.fr",
+   "breadcrumb": {
+    "@id": "https://ouaisfieu.github.io/ici/patate-chaude/#breadcrumb"
+   }
+  },
+  {
+   "@type": "Quiz",
+   "@id": "https://ouaisfieu.github.io/ici/patate-chaude/#quiz",
+   "name": "Qui est compétent en Belgique ?",
+   "about": {
+    "@type": "Thing",
+    "name": "Répartition des compétences en Belgique"
+   },
+   "educationalLevel": "Grand public",
+   "inLanguage": "fr-BE",
+   "hasPart": [
+    {
+     "@type": "Question",
+     "name": "Le stock stratégique de masques en cas de pandémie : qui est compétent ?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Fédéral. Compétence fédérale (Santé publique). Le stock a été détruit sans être reconstitué avant 2020 — ce qui n'a pas empêché les Régions d'être accusées."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Les maisons de repos : qui est compétent ?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Communautés. Compétence communautaire depuis la 6e réforme — exercée en Wallonie par la Région (AVIQ) et à Bruxelles par la COCOM (Iriscare). Oui, même la réponse simple est compliquée."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Le financement des hôpitaux : qui est compétent ?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Plusieurs niveaux. Le fédéral finance le fonctionnement (budget des moyens financiers, INAMI) ; les Communautés fixent les normes d'agrément et financent les infrastructures."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Les allocations de chômage : qui est compétent ?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Plusieurs niveaux. Le fédéral (ONEM) paie les allocations ; les Régions (Forem, Actiris, VDAB) contrôlent la disponibilité des chômeurs. Un exclu a donc deux guichets pour une seule porte de sortie."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Les allocations familiales : qui est compétent ?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Communautés. Transférées aux Communautés par la 6e réforme, exercées en pratique par la Flandre, la Wallonie, la COCOM et la Communauté germanophone : quatre régimes différents pour un même enfant belge."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "La pension d'un enseignant de la Fédération Wallonie-Bruxelles : qui est compétent ?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Fédéral. L'enseignant est payé par la Communauté, mais sa pension relève du fédéral. Le coût du vieillissement du corps enseignant n'est donc pas supporté par celui qui recrute."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Le bail de votre appartement : qui est compétent ?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Régions. Depuis la 6e réforme, le bail d'habitation est régional : trois législations différentes selon le côté de la rue."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "La limitation de vitesse sur une route régionale : qui est compétent ?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Régions. Les Régions fixent les limitations de vitesse sur leurs voiries, sauf sur les autoroutes. Le code de la route, lui, reste en partie fédéral."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Les routes aériennes au-dessus de Bruxelles : qui est compétent ?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Plusieurs niveaux. Routes et contrôle aérien : fédéral. Normes de bruit : chaque Région. Permis d'environnement de l'aéroport : la Flandre. Résultat : trente ans de conflit."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "La politique climatique : qui est compétent ?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Plusieurs niveaux. Fédéral et trois Régions, liés par un accord de partage de la charge. La justice en a condamné trois sur quatre en 2023."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Les prisons : qui est compétent ?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Plusieurs niveaux. L'exécution des peines et les établissements relèvent du fédéral ; l'aide sociale, l'enseignement et la santé mentale des détenus relèvent en partie des Communautés."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Les maisons de justice : qui est compétent ?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Communautés. Communautarisées par la 6e réforme : le suivi des peines alternatives dépend désormais d'une autre entité que les juges qui les prononcent."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "La police de proximité à Bruxelles : qui est compétent ?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Communes. Les zones de police locales sont pilotées par les bourgmestres : six zones pour les 19 communes bruxelloises. Leur fusion en une « Police de Bruxelles » unique a été votée en 2026… pour le 1er janvier 2028."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Les tarifs de distribution de l'électricité : qui est compétent ?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Régions. Distribution : Régions (et leurs régulateurs). Transport à haute tension et nucléaire : fédéral (CREG). Votre facture a deux tutelles."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Le tourisme en Wallonie : qui est compétent ?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Régions. Compétence formellement communautaire… mais exercée par la Région wallonne en vertu de l'article 138 de la Constitution. Asymétrie oblige."
+     }
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#contenu">Aller au contenu</a>
+<header class="site-header">
+ <div class="wrap">
+  <a class="brand" href="../" aria-label="Ici gît la Belgique — accueil"><svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><rect x="1" y="1" width="30" height="30" rx="8" fill="none" stroke="currentColor" stroke-opacity=".25"/><path d="M16 6v20M10 12h12" stroke="var(--green)" stroke-width="2.4" stroke-linecap="round"/><circle cx="24" cy="24" r="3" fill="var(--lilac)"/></svg><span>Ici gît <em>la Belgique</em></span></a>
+  <button class="icon-btn menu-btn" type="button" data-menu-toggle aria-controls="nav" aria-expanded="false" aria-label="Menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+  <nav class="nav" id="nav" aria-label="Navigation principale"><ul><li><a href="../autopsie/">Autopsie</a></li><li><a href="../registre/">Registre</a></li><li><a href="../chiffres/">Chiffres</a></li><li><a href="../chronologie/">Chronologie</a></li><li><a href="../patate-chaude/" aria-current="page">Patate chaude</a></li><li><a href="../langue-de-bois/">Langue de bois</a></li><li><a href="../lexique/">Lexique</a></li><li><a href="../methode/">Méthode</a></li></ul></nav>
+  <a class="icon-btn" href="../recherche/" aria-label="Rechercher"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></a>
+  <button class="icon-btn theme-btn" type="button" data-theme-toggle aria-label="Changer de thème"><svg class="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg><svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button>
+ </div>
+ <div class="progress" aria-hidden="true"></div>
+</header>
+<main id="contenu">
+ <div class="wrap">
+  <nav class="crumbs" aria-label="Fil d'Ariane"><ol><li><a href="../">Accueil</a></li><li aria-current="page">Patate chaude</li></ol></nav>
+  <div data-reading>
+   <header class="article-head">
+    <p class="kicker">Jeu</p>
+    <h1>La patate chaude : qui est compétent ?</h1>
+    <p class="lede">Quinze questions. Cinq réponses possibles. <em>Neuf ministres de la Santé</em> ont échoué avant vous.</p>
+    
+   </header>
+   <div class="">
+    <div class="prose wide">
+<p>Un problème public, cinq niveaux de pouvoir possibles. À vous de trouver qui est compétent. Vous comprendrez vite pourquoi, en Belgique, la question « qui est responsable ? » reçoit si souvent la réponse « l'autre ».</p>
+<section class="game" id="patate" aria-live="polite">
+ <p class="kicker" data-num>Question 1</p>
+ <p class="q">Chargement…</p>
+ <div class="choices" role="group" aria-label="Réponses possibles"></div>
+ <div class="answer" hidden><p class="who"></p><p class="expl"></p><button class="btn primary" type="button" data-next>Question suivante →</button></div>
+ <p class="score" aria-live="polite"></p>
+</section>
+<noscript><p>Ce jeu nécessite JavaScript. Les réponses : Le stock stratégique de masques en cas de pandémie → Fédéral; Les maisons de repos → Communautés; Le financement des hôpitaux → Plusieurs niveaux; Les allocations de chômage → Plusieurs niveaux; Les allocations familiales → Communautés; La pension d&#x27;un enseignant de la Fédération Wallonie-Bruxelles → Fédéral; Le bail de votre appartement → Régions; La limitation de vitesse sur une route régionale → Régions; Les routes aériennes au-dessus de Bruxelles → Plusieurs niveaux; La politique climatique → Plusieurs niveaux; Les prisons → Plusieurs niveaux; Les maisons de justice → Communautés; La police de proximité à Bruxelles → Communes; Les tarifs de distribution de l&#x27;électricité → Régions; Le tourisme en Wallonie → Régions.</p></noscript>
+<script type="application/json" id="patate-data">[["Le stock stratégique de masques en cas de pandémie", "Fédéral", "Compétence fédérale (Santé publique). Le stock a été détruit sans être reconstitué avant 2020 — ce qui n'a pas empêché les Régions d'être accusées."], ["Les maisons de repos", "Communautés", "Compétence communautaire depuis la 6e réforme — exercée en Wallonie par la Région (AVIQ) et à Bruxelles par la COCOM (Iriscare). Oui, même la réponse simple est compliquée."], ["Le financement des hôpitaux", "Plusieurs niveaux", "Le fédéral finance le fonctionnement (budget des moyens financiers, INAMI) ; les Communautés fixent les normes d'agrément et financent les infrastructures."], ["Les allocations de chômage", "Plusieurs niveaux", "Le fédéral (ONEM) paie les allocations ; les Régions (Forem, Actiris, VDAB) contrôlent la disponibilité des chômeurs. Un exclu a donc deux guichets pour une seule porte de sortie."], ["Les allocations familiales", "Communautés", "Transférées aux Communautés par la 6e réforme, exercées en pratique par la Flandre, la Wallonie, la COCOM et la Communauté germanophone : quatre régimes différents pour un même enfant belge."], ["La pension d'un enseignant de la Fédération Wallonie-Bruxelles", "Fédéral", "L'enseignant est payé par la Communauté, mais sa pension relève du fédéral. Le coût du vieillissement du corps enseignant n'est donc pas supporté par celui qui recrute."], ["Le bail de votre appartement", "Régions", "Depuis la 6e réforme, le bail d'habitation est régional : trois législations différentes selon le côté de la rue."], ["La limitation de vitesse sur une route régionale", "Régions", "Les Régions fixent les limitations de vitesse sur leurs voiries, sauf sur les autoroutes. Le code de la route, lui, reste en partie fédéral."], ["Les routes aériennes au-dessus de Bruxelles", "Plusieurs niveaux", "Routes et contrôle aérien : fédéral. Normes de bruit : chaque Région. Permis d'environnement de l'aéroport : la Flandre. Résultat : trente ans de conflit."], ["La politique climatique", "Plusieurs niveaux", "Fédéral et trois Régions, liés par un accord de partage de la charge. La justice en a condamné trois sur quatre en 2023."], ["Les prisons", "Plusieurs niveaux", "L'exécution des peines et les établissements relèvent du fédéral ; l'aide sociale, l'enseignement et la santé mentale des détenus relèvent en partie des Communautés."], ["Les maisons de justice", "Communautés", "Communautarisées par la 6e réforme : le suivi des peines alternatives dépend désormais d'une autre entité que les juges qui les prononcent."], ["La police de proximité à Bruxelles", "Communes", "Les zones de police locales sont pilotées par les bourgmestres : six zones pour les 19 communes bruxelloises. Leur fusion en une « Police de Bruxelles » unique a été votée en 2026… pour le 1er janvier 2028."], ["Les tarifs de distribution de l'électricité", "Régions", "Distribution : Régions (et leurs régulateurs). Transport à haute tension et nucléaire : fédéral (CREG). Votre facture a deux tutelles."], ["Le tourisme en Wallonie", "Régions", "Compétence formellement communautaire… mais exercée par la Région wallonne en vertu de l'article 138 de la Constitution. Asymétrie oblige."]]</script>
+<p class="muted"><small>Réponses simplifiées à des fins pédagogiques, établies d'après la répartition des compétences issue des six réformes de l'État<sup><a class="ref" href="#src-1" aria-label="Source 1">1</a><a class="ref" href="#src-2" aria-label="Source 2">2</a><a class="ref" href="#src-3" aria-label="Source 3">3</a></sup>. Pour chaque cas réel, la réponse exacte est plus compliquée — c'est précisément le problème.</small></p>
+<section class="sources" aria-labelledby="sources-titre"><h2 id="sources-titre">Sources</h2><ol><li id="src-1"><cite>Sixième réforme de l&#x27;État</cite> — CRISP – Vocabulaire politique. <a href="https://www.vocabulairepolitique.be/sixieme-reforme-de-letat/" rel="noopener external">www.vocabulairepolitique.be</a></li><li id="src-2"><cite>Sixième réforme de l&#x27;État belge</cite> — Wikipédia. <a href="https://fr.wikipedia.org/wiki/Sixi%C3%A8me_r%C3%A9forme_de_l%27%C3%89tat_belge" rel="noopener external">fr.wikipedia.org</a></li><li id="src-3"><cite>Fédéralisme asymétrique</cite> — CRISP – Vocabulaire politique. <a href="https://www.vocabulairepolitique.be/federalisme-asymetrique/" rel="noopener external">www.vocabulairepolitique.be</a></li></ol></section>
+
+    </div>
+    
+   </div>
+  </div>
+ </div>
+</main>
+<footer class="site-footer">
+ <div class="wrap">
+  <div class="cols">
+   <div>
+    <p class="brand footer-brand"><svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><rect x="1" y="1" width="30" height="30" rx="8" fill="none" stroke="currentColor" stroke-opacity=".25"/><path d="M16 6v20M10 12h12" stroke="var(--green)" stroke-width="2.4" stroke-linecap="round"/><circle cx="24" cy="24" r="3" fill="var(--lilac)"/></svg><span>Ici gît <em>la Belgique</em></span></p>
+    <p>Autopsie sans anesthésie d'un État qui se regarde mourir. Pas de pub, pas de cookie, pas de traceur, pas de parti. Des faits, des sources, et aucune pitié pour les institutions qui n'en ont pas pour leurs administrés.</p>
+    <p>Textes : <strong>Claude</strong> (IA, Anthropic). Éditeur anonyme.</p>
+   </div>
+   <nav aria-label="Autopsie"><h2>Autopsie</h2><ul><li><a href="../autopsie/mille-feuille/">Le mille-feuille</a></li><li><a href="../autopsie/particratie/">La particratie</a></li><li><a href="../autopsie/dette/">La dette</a></li><li><a href="../autopsie/casse-sociale/">La casse sociale</a></li><li><a href="../autopsie/etat-hors-la-loi/">L&#x27;État hors-la-loi</a></li><li><a href="../autopsie/chantiers-eternels/">Les chantiers éternels</a></li><li><a href="../autopsie/bruxelles/">Bruxelles abandonnée</a></li><li><a href="../autopsie/climat-pfas/">Climat &amp; PFAS</a></li><li><a href="../autopsie/impunite/">La faillite collective</a></li><li><a href="../autopsie/ecole-medias/">École &amp; médias</a></li><li><a href="../autopsie/liquidation/">La liquidation</a></li></ul></nav>
+   <nav aria-label="Outils"><h2>Outils</h2><ul>
+    <li><a href="../registre/">Registre des responsabilités</a></li>
+    <li><a href="../chiffres/">Le compteur mortuaire</a></li>
+    <li><a href="../chronologie/">Chronologie 1970-2026</a></li>
+    <li><a href="../patate-chaude/">Jeu : la patate chaude</a></li>
+    <li><a href="../langue-de-bois/">Générateur de langue de bois</a></li>
+    <li><a href="../lexique/">Lexique du déni</a></li>
+    <li><a href="../recherche/">Rechercher</a></li>
+   </ul></nav>
+   <nav aria-label="Le site"><h2>Le site</h2><ul>
+    <li><a href="../methode/">Méthode &amp; droit de réponse</a></li>
+    <li><a href="../sources/">Toutes les sources</a></li>
+    <li><a href="../data/registre.json">Données (JSON)</a></li>
+    <li><a href="../feed.xml">Flux Atom</a></li>
+    <li><a href="https://github.com/ouaisfieu/ici" rel="noopener">Code source</a></li>
+   </ul></nav>
+  </div>
+  <div class="legal">
+   <span>Contenu sous licence <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr" rel="license noopener">CC BY-SA 4.0</a> · code MIT · polices SIL OFL.</span>
+   <span>Dernière mise à jour : <time datetime="2026-09-28">28 septembre 2026</time>.</span>
+  </div>
+ </div>
+</footer>
+</body>
+</html>
